@@ -5,6 +5,28 @@ import java.util.Scanner;
 public class Moodle {
     public static void main(String[] args) {
 
+        //  System.out.println(ConversorTemperatura.converteParaFahrenheint(25.5));
+
+        // System.out.println(CalculadoraQuilowatt.calculaKw(1212, 500));
+
+        /*
+        System.out.println(CalculadoraSalario.calculaSalario(192,1212));
+*/
+        /*
+        System.out.println(CalculadoraPrecoCarro.calculaPrecoCarro(15000, 20, 15));
+*/
+
+     /*   System.out.println(CalculadoraIdade.calcularIdade(1994, 2022));
+
+        System.out.println(CalculadoraIdade.calcularIdade(4, 3, 1994));
+*/
+
+   /*     System.out.println("a. polegadas: " + ConversorMedidas.converteParaPolega(5));
+        System.out.println("b. jardas: " + ConversorMedidas.converteParaJarda(5));
+        System.out.println("c. milhas: " + ConversorMedidas.converteParaMilha(5));
+*/
+/*
+
         // Pegar um valor do scanner
         Scanner scan = new Scanner(System.in);
         System.out.println("1 - Quadrado; \n2 - Triângulo; \n3 - Círculo; \n4 - Retângulo. \n Digite o número da área que deseja calcular:");
@@ -50,17 +72,7 @@ public class Moodle {
         }
         // Se diferente, inserir um valor válido trhow new RuntimeException();
             else throw new RuntimeException("Digite um valor válido.");
-
-
-
-
-
-
-
-
-
-
-
+*/
      /*   System.out.print("A área do quadrado é: " + CalculadoraArea.calculaAreaQuadrado(5) + "m²");
         System.out.print("\nA área do triângulo é: " + CalculadoraArea.calculaAreaTriangulo(5, 3) + "m²");
         System.out.print("\nA área do círculo é: " + CalculadoraArea.calculaAreaCirculo(5) + "m²");
@@ -71,115 +83,22 @@ public class Moodle {
         // System.out.println(Salario.calculaSalarioComComissao(1500.00));
 
         //System.out.println("Olá, Mundo!");
-        /* Calculadora de média
 
-        Scanner entrada = new Scanner(System.in);
+        //  System.out.println(CalculadoraMedia.calculaMedia(2, 5.8, 10, 9));
 
+        //   System.out.println(CalculadoraSubtracao.calculaSubtracao(6, 3));
 
-        System.out.println("Digite a primeira nota: ");
-        double n1 = entrada.nextDouble();
+        // System.out.println(CalculadoraDivisao.calculaDivisao(9,2));
 
-        System.out.println("Digite a segunda nota: ");
-        double n2 = entrada.nextDouble();
+        // System.out.println(CalculadoraDesconto.calculaDesconto(50));
 
-        System.out.println("Digite a terceira nota: ");
-        double n3 = entrada.nextDouble();
-
-        System.out.println("Digite a quarta nota: ");
-        double n4 = entrada.nextDouble();
-
-        double media = (n1 + n2 + n3 + n4) / 4;
-        System.out.printf("O resultado da média é: " + "%.2f", media);*/
-
-
-        /* Subtração
-
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Digite o primeiro número: ");
-        double n1 = scan.nextDouble();
-
-        System.out.println("Digite o segundo número: ");
-        double n2 = scan.nextDouble();
-
-        double subtracao = n1 - n2;
-
-        System.out.printf("A subtração de n1 - n2 é: " + "%.2f", subtracao);*/
-
-       /* Divisão
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Digite o primeiro número: ");
-        double n1 = scan.nextDouble();
-
-        System.out.println("Digite o segundo número: ");
-        double n2 = scan.nextDouble();
-
-        if (n2 != 0) {
-            double divisao = n1 / n2;
-
-            System.out.printf("O resultado da divisão é: " + "%.2f", divisao);
-
-        } else {
-            System.out.println("Digite um número diferente de zero");
-        }*/
-
-        /* Média
-
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Digite a primeira nota: ");
-        double n1 = scan.nextDouble();
-
-        System.out.println("Digite a segunda nota: ");
-        double n2 = scan.nextDouble();
-
-        System.out.println("Digite a terceira nota: ");
-        double n3 = scan.nextDouble();
-
-        double media = (n1 + n2 + n3) / 3;
-
-        System.out.printf("A média é: " + "%.2f", media);*/
-
-        /* Desconto de 10%
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Digite o preço cheio do produto: ");
-        double precoCheio = scan.nextDouble();
-
-        double precoDesconto = (precoCheio * 0.90);
-
-        System.out.printf("O valor do produto com 10%c de desconto é: R$ %.2f", '%' , precoDesconto);*/
-
-        /*Salário
-
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Digite o valor do salário: ");
-        double salarioBase = scan.nextDouble();
-        double gratificacaoSalario = salarioBase * 1.05;
-        double salarioLiquido = gratificacaoSalario * 0.93;
-
-        System.out.printf("O salário ao final é: R$ %.2f", salarioLiquido);*/
+        //   System.out.println(CalculadoraSalario.calculaSalario(180,1212));
+        //   System.out.println(CalculadoraSalario.calculaSalario(1212));
 
    /* System.out.println(calculaSalarioLiquido(1000));
         System.out.println(maioridade(18));*/
+
+        //  System.out.println(CalculadoraMaioridade.calculaMaioridade(17));
+        // System.out.println(CalculadoraMaioridade.calculaMaioridade(18));
     }
-
-   /* Salário
-   public static double calculaSalarioLiquido(double salario) {
-
-        double percentualGratificacao = 1.25;
-        double percentualDesconto = 0.93;
-        /*double gratificacaoSalario = salario * percentualGratificacao;
-        double salarioLiquido = gratificacaoSalario * percentualDesconto;
-        return salarioLiquido;
-        return (salario * percentualGratificacao) * percentualDesconto;
-    }*/
-
-  /* Maioridade
-    public static boolean maioridade(int idade) {
-        int maioridadeBrasil = 18;
-        return idade >= maioridadeBrasil;
-    }*/
 }
