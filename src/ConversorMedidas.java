@@ -8,7 +8,7 @@ public class ConversorMedidas {
         return medida / 3;
     }
 
-    public static double converteParamMilha (double medida) {
+    public static double converteParaMilha (double medida) {
         return medida / 3 / 1760;
     }
 
