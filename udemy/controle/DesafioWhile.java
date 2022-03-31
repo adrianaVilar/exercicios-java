@@ -12,7 +12,7 @@ public class DesafioWhile {
         String verificar = scan.nextLine();
 
         while (!"sair".equalsIgnoreCase(verificar)) {
-            // tem que digitar de novo
+            System.out.println("Continue digitando!");
             verificar = scan.nextLine();
 
         }
