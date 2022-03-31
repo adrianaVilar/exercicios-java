@@ -9,11 +9,11 @@ public class DesafioWhile {
         System.out.println("Digite uma palavra para continuar o laço e SAIR para finalizar.");
         Scanner scan = new Scanner(System.in);
 
-        String verificar = scan.nextLine();
+        String valor = scan.nextLine();
 
-        while (!"sair".equalsIgnoreCase(verificar)) {
+        while (!"sair".equalsIgnoreCase(valor)) {
             System.out.println("Continue digitando!");
-            verificar = scan.nextLine();
+            valor = scan.nextLine();
 
         }
 
