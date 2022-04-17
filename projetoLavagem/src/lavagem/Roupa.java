@@ -16,7 +16,7 @@ public class Roupa {
         return this.roupaLimpa;
     }
 
-    public void setLimpa(boolean roupaLimpa) {
+    public void setRoupaLimpa(boolean roupaLimpa) {
         this.roupaLimpa = roupaLimpa;
     }
 

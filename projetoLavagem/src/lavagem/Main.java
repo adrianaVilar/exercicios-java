@@ -1,9 +1,11 @@
 package lavagem;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
 
         System.out.println("Qual ítem você deseja lavar? \n 1 - Louça; \n 2 - Roupa.");
 
@@ -51,7 +53,7 @@ public class Main {
             int lavar = scan.nextInt();
 
             if (lavar == 1) {
-                r1.setLimpa(true);
+                r1.setRoupaLimpa(true);
                 System.out.println("Pressione 1 para secar ou qualquer outra tecla para sair.");
                 int secar = scan.nextInt();
 
@@ -79,4 +81,22 @@ public class Main {
             }
         }
     }
+
+    public static void main(String[] args){
+        MaquinaDeLavar maquinaDeLavar = new MaquinaDeLavar();
+        MaquinaDeSecar maquinaDeSecar = new MaquinaDeSecar();
+        Armario armario = new Armario();
+
+        List<Louca> loucas = new ArrayList<>();
+        loucas.add(new Louca(false, true, false));
+        loucas.add(new Louca(true, true, true));
+
+        for(Louca louca: loucas){
+            maquinaDeLavar.lava(louca);
+            maquinaDeSecar.seca(louca);
+            armario.guarda(louca);
+        }
+        System.out.println(loucas);
+    }
+
 }
