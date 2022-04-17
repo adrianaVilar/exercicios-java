@@ -24,5 +24,7 @@ public class DataTeste {
         d3.ano = 2022;
 
         System.out.printf("\n%d/%d/%d", d3.dia, d3.mes, d3.ano);
+
+        System.out.printf("\n%s", d3);
     }
 }
