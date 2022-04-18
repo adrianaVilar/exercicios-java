@@ -6,9 +6,7 @@ public class Produto {
     double preco;
     double desconto;
 
-    public double precoComDesconto(double preco, double desconto) {
-        this.preco = preco;
-        this.desconto = desconto;
+    public double precoComDesconto() {
         double descontoTransformado = 1 - desconto;
         return descontoTransformado * preco;
     }

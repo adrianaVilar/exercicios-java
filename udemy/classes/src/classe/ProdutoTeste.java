@@ -2,7 +2,7 @@ package classe;
 
 public class ProdutoTeste {
 
-    public static void main1(String[] args) {
+   /* public static void main1(String[] args) {
         Produto p1 = new Produto();
 
         p1.nome = "Notebook";
@@ -20,7 +20,7 @@ public class ProdutoTeste {
 
         System.out.printf("O valor do notebook com desconto é: R$%.2f.", precoFinalNotebook);
         System.out.printf("\nO valor do celular com desconto é: R$%.2f.", precoFinalCelular);
-    }
+    }*/
 
     public static void main(String [] args) {
         Produto p1 = new Produto();
@@ -28,6 +28,13 @@ public class ProdutoTeste {
         p1.preco = 7.90;
         p1.desconto = 0.25;
 
-        System.out.printf("O valor com desconto é: R$%.2f", p1.precoComDesconto(p1.preco, p1.desconto));
+        System.out.printf("O valor com desconto é: R$%.2f", p1.precoComDesconto());
+
+        Produto p2 = new Produto();
+        p2.nome = "Caneca";
+        p2.preco = 8.99;
+        p2.desconto = .10;
+
+        System.out.printf("\n%.2f", p2.precoComDesconto());
     }
 }
