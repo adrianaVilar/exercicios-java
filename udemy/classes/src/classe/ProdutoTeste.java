@@ -35,6 +35,7 @@ public class ProdutoTeste {
         p2.preco = 8.99;
         p2.desconto = .10;
 
-        System.out.printf("\n%.2f", p2.precoComDesconto());
+        System.out.printf("\nO valor com desconto é: R$%.2f", p2.precoComDesconto());
+        System.out.printf("\nO valor com desconto do gerente é: R$%.2f", p2.precoComDesconto(0.1));
     }
 }

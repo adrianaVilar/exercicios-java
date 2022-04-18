@@ -6,8 +6,12 @@ public class Data {
     int mes;
     int ano;
 
-    @Override
+/*    @Override
     public String toString() {
         return dia + "/" + mes + "/" + ano;
+    }*/
+
+   String obterDataFormatada() {
+        return String.format("%d/%d/%d", dia, mes, ano);
     }
 }
