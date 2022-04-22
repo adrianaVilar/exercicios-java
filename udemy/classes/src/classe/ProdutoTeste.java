@@ -33,7 +33,7 @@ public class ProdutoTeste {
         p2.nome = "Caneca";
         p2.preco = 8.99;
         Produto.desconto = 0.50;
-        
+
         System.out.printf("\nO valor com desconto de natal e do gerente é: R$%.2f", p2.precoComDesconto(0.1));
         System.out.printf("\nO valor com desconto de natal é: R$%.2f", p2.precoComDesconto());
     }
