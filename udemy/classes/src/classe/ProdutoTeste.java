@@ -26,16 +26,15 @@ public class ProdutoTeste {
         Produto p1 = new Produto();
         p1.nome = "Caneta";
         p1.preco = 7.90;
-        p1.desconto = 0.25;
 
         System.out.printf("O valor com desconto é: R$%.2f", p1.precoComDesconto());
 
         Produto p2 = new Produto();
         p2.nome = "Caneca";
         p2.preco = 8.99;
-        p2.desconto = .10;
-
-        System.out.printf("\nO valor com desconto é: R$%.2f", p2.precoComDesconto());
-        System.out.printf("\nO valor com desconto do gerente é: R$%.2f", p2.precoComDesconto(0.1));
+        Produto.desconto = 0.50;
+        
+        System.out.printf("\nO valor com desconto de natal e do gerente é: R$%.2f", p2.precoComDesconto(0.1));
+        System.out.printf("\nO valor com desconto de natal é: R$%.2f", p2.precoComDesconto());
     }
 }
