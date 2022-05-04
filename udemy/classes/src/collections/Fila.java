@@ -25,7 +25,7 @@ public class Fila {
         System.out.println("Remover: " + fila.remove());
         System.out.println("Remover: " + fila.poll());
         System.out.println("Fila: " + fila);
-        
+
     }
 
 }
