@@ -24,5 +24,3 @@ public class VerificarCpf {
 
         //Verificar se o resultado é igual ao primeiro dígito. Se o resultado for
     }
-
-}
