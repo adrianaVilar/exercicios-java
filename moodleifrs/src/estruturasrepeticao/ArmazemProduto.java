@@ -11,4 +11,9 @@ public class ArmazemProduto {
         this.preco = preco;
         this.qtd = qtd;
     }
+
+    @Override
+    public String toString() {
+        return "Produto= " + nome + ", Preço= R$" + preco + ", Qtd= " + qtd ;
+    }
 }
