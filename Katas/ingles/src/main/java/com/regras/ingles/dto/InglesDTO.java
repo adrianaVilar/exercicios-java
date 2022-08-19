@@ -1,2 +1,15 @@
-package com.regras.ingles.controller;public class InglesDTO {
+package com.regras.ingles.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class InglesDTO {
+
+    private Integer id;
+    private String name;
+    private String meaning;
+    private String day;
+
 }
