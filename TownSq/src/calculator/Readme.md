@@ -14,6 +14,11 @@ Por exemplo,
  int[] flavors = {1, 1, 1, 2, 2, 2, 0, 0, 0};
  
 ```
+```java
+ // Para o array abaixo, é esperado o retorno 1
+ int[] flavors = {1, 1, 1, 2, 2, 2, 0, 0, 0, 1};
+ 
+```
 
 #### Como utilizar:
 Atualmente o array de entrada está fixo na classe Main, portanto, para utilizar o método é preciso modificar o array.
